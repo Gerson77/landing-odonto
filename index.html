@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DentalClean</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body>
+    <div class="hero-section" id="home">
+      <header id="header">
+        <div class="header-container container">
+          <div class="logo">
+            <a href="#home">
+              <img src="./assets/odonto-logo.png" alt="Logo DentalClean" />
+            </a>
+          </div>
+            <ul class="menu" id="menu">
+              <li class="menu_item">
+                <a href="#home" class="menu_link">Início</a>
+              </li>
+              <li class="menu_item">
+                <a href="#about" class="menu_link">Sobre</a>
+              </li>
+              <li class="menu_item">
+                <a href="#services" class="menu_link">Serviços</a>
+              </li>
+              <li class="menu_item">
+                <a href="#contact" class="menu_link">Contato</a>
+              </li>
+              <div class="close_icon">
+                <i class="ph ph-x"></i>
+              </div>
+            </ul>
+            <div class="toggle_icon">
+              <i class="ph ph-list" ></i>
+            </div>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="shapes">
+          <div class="shapes-wrapper">
+            <svg
+              class="shape-1"
+              viewBox="0 0 1920 1080"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+            >
+              <!-- Fundo: cobre tudo -->
+              <rect x="0" y="0" width="1920" height="90vh" fill="#1a1a1a00" />
+
+              <!-- Área "central" (ex 800x800) com outra cor ou forma -->
+              <rect
+                x="0"
+                y="0"
+                width="700"
+                height="700"
+                fill="#3f3f3f00"
+                rx="0"
+              />
+              <path
+                fill="#00de90"
+                d="
+                M0,0 
+                H900 
+                C900,200 600,300 520,420 
+                C480,480 480,560 360,640 
+                C260,700 140,760 0,810 
+                Z"
+              />
+              <path
+                fill="#09648f"
+                d="
+                M0,0 
+                H890 
+                C890,190 590,290 510,410 
+                C470,470 470,550 350,630 
+                C250,690 130,750 0,800 
+                Z"
+              />
+              <path
+                fill="#66c2e6"
+                d="
+                M0,0 
+                H880 
+                C880,180 580,280 500,400 
+                C460,460 460,540 340,620 
+                C240,680 120,740 0,790 
+                Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="filter-color"></div>
+        <img src="./assets/banner1.png" alt="Seção hero" class="hero-image" />
+        <div class="hero-content container">
+          <div class="info">
+            <h1>Seu sorriso merece o melhor cuidado!</h1>
+            <p>
+              Na DentalClean, transformamos vidas através de um sorriso saudável
+              e confiante. Agende sua consulta hoje mesmo e dê o primeiro passo
+              para um sorriso perfeito.
+            </p>
+            <div class="buttons">
+              <button class="btn-primary">Agendar sua consulta</button>
+              <button class="btn-secondary">
+                <span>Fale conosco pelo</span>
+                <i class="ph ph-whatsapp-logo"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <svg
+          class="shape-bottom"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,288L48,277.3C96,267,192,245,288,250.7C384,256,490,298,576,310.7C672,329,988,309,984,298.3C990,299,1056,288,1152,250.7C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+    </div>
+
+    <section class="about container" id="about">
+      <h1>Quem Somos?</h1>
+      <div class="content-about">
+        <div class="gallery">
+          <div class="photo photo-1">
+            <img src="./assets/photo-1.jpg" alt="" />
+            <h4>Profissionalismo</h4>
+          </div>
+          <div class="photo photo-2">
+            <img src="./assets/Proteses.jpg" alt="" />
+            <h4>Excelência</h4>
+          </div>
+          <div class="photo photo-3">
+            <img src="./assets/Odontopediatria.webp" alt="" />
+            <h4>Cuidando</h4>
+          </div>
+        </div>
+        <div class="content-text">
+          <h2>
+            Conheça nossa história e <strong>compromisso</strong> com a saúde
+            bucal.
+          </h2>
+          <p>
+            A DentalClean nasceu do sonho de transformar sorrisos e cuidar das
+            pessoas com dedicação, respeito e excelência. Desde 2002, temos o
+            compromisso de oferecer tratamentos odontológicos que vão além da
+            técnica: priorizamos o conforto, a saúde e a satisfação dos nossos
+            pacientes. Somos uma equipe de profissionais altamente qualificados,
+            apaixonados pelo que fazemos e comprometidos em proporcionar o
+            melhor atendimento possível. Cada procedimento realizado na nossa
+            clínica é planejado com atenção aos detalhes, garantindo resultados
+            duradouros e um sorriso que reflita sua personalidade e confiança.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services container" id="services">
+      <h1>Saúde Bucal em Foco: Conheça Nossos Serviços</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="./assets/clareamento.jpg" alt="" />
+          <h4>Clareamento Dental</h4>
+          <p>Transforme seu sorriso com resultados rápidos e seguros.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/Implantes-Dentarios.webp" alt="" />
+          <h4>Implantes Dentarários</h4>
+          <p>Recupere a funcionalidade e estética do seu sorriso.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/Ortodontia.jpg" alt="" />
+          <h4>Ortodontia (Aparelhos)</h4>
+          <p>Alinhe seus dentes e conquiste um sorriso perfeito.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/Limpeza_Profilaxia.jpg" alt="" />
+          <h4>Limpeza e Profilaxia</h4>
+          <p>Previna doenças bucais com cuidados preventivos.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/Proteses.jpg" alt="" />
+          <h4>Próteses Dentárias</h4>
+          <p>Restaure a função e a estética do seu sorriso.</p>
+        </div>
+        <div class="card">
+          <img src="./assets/Odontopediatria.webp" alt="" />
+          <h4>Odontopediatria</h4>
+          <p>Cuidamos do sorriso das crianças com carinho e segurança.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="tracks">
+      <div class="range-1"><h2>O Que Nossos Pacientes Dizem Sobre Nós</h2></div>
+      <div class="range-2"></div>
+    </div>
+
+    <section class="depoiments container" id="depoiments">
+      <div class="subtitle-depoiments">
+        <div class="last-layer"></div>
+        <div class="second-layer"></div>
+        <div class="first-layer"></div>
+        <div class="content">
+          <h2>Confiança Refletida nas Palavras de Quem Nos Conhece</h2>
+          <p>
+            Aqui estão algumas Histórias Reais de quem já cuidou do sorriso
+            conosco.
+          </p>
+        </div>
+      </div>
+
+      <section class="carrossel-infinito">
+        <div class="swiper mySwiper">
+          <div class="carrossel-track swiper-wrapper">
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-4.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Maya Lee</h3>
+                <p class="especialidade">Ortodontia</p>
+                <p class="texto">
+                  "Desde criança eu tinha problemas com o alinhamento dos meus
+                  dentes. Fiz tratamento com aparelho invisível na DentalClean e
+                  o resultado foi incrível. Obrigada por todo o cuidado e
+                  paciência durante o processo!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-2.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Tayna Ribeiro</h3>
+                <p class="especialidade">Clareamento Dental</p>
+                <p class="texto">
+                  "Sempre tive vergonha do meu sorriso por causa do tom
+                  amarelado dos meus dentes. Graças ao clareamento dental na
+                  DentalClean, hoje recuperei minha autoestima!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-3.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Robert Tailler</h3>
+                <p class="especialidade">Limpeza e Profilaxia</p>
+                <p class="texto">
+                  "Adoro fazer limpezas regulares na DentalClean. O ambiente é
+                  super acolhedor e os profissionais são excelentes. Minha saúde
+                  bucal nunca esteve tão bem!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-1.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Marluce Costa</h3>
+                <p class="especialidade">Prótese Dentária</p>
+                <p class="texto">
+                  "Precisei de uma prótese dentária e fiquei impressionada com a
+                  qualidade do trabalho e o carinho com que fui tratada.
+                  Recomendo muito a DentalClean para quem busca um serviço de
+                  qualidade!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-5.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Henrique Porto</h3>
+                <p class="especialidade">Implante Dentário</p>
+                <p class="texto">
+                  "Perdi um dente há anos e sempre evitei sorrir. Na
+                  DentalClean, fiz um implante que mudou minha vida. A equipe
+                  foi super profissional e cuidadosa em cada etapa. Hoje, meu
+                  sorriso está perfeito!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper2">
+          <div class="carrossel-track swiper-wrapper">
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-4.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Maya Lee</h3>
+                <p class="especialidade">Ortodontia</p>
+                <p class="texto">
+                  "Desde criança eu tinha problemas com o alinhamento dos meus
+                  dentes. Fiz tratamento com aparelho invisível na DentalClean e
+                  o resultado foi incrível. Obrigada por todo o cuidado e
+                  paciência durante o processo!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-2.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Tayna Ribeiro</h3>
+                <p class="especialidade">Clareamento Dental</p>
+                <p class="texto">
+                  "Sempre tive vergonha do meu sorriso por causa do tom
+                  amarelado dos meus dentes. Graças ao clareamento dental na
+                  DentalClean, hoje recuperei minha autoestima!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-3.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Robert Tailler</h3>
+                <p class="especialidade">Limpeza e Profilaxia</p>
+                <p class="texto">
+                  "Adoro fazer limpezas regulares na DentalClean. O ambiente é
+                  super acolhedor e os profissionais são excelentes. Minha saúde
+                  bucal nunca esteve tão bem!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-1.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Marluce Costa</h3>
+                <p class="especialidade">Prótese Dentária</p>
+                <p class="texto">
+                  "Precisei de uma prótese dentária e fiquei impressionada com a
+                  qualidade do trabalho e o carinho com que fui tratada.
+                  Recomendo muito a DentalClean para quem busca um serviço de
+                  qualidade!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+            <div class="swiper-slide card-depoiment">
+              <img src="./assets/person-5.jpg" alt="Maya Lee" />
+              <div>
+                <h3>Henrique Porto</h3>
+                <p class="especialidade">Implante Dentário</p>
+                <p class="texto">
+                  "Perdi um dente há anos e sempre evitei sorrir. Na
+                  DentalClean, fiz um implante que mudou minha vida. A equipe
+                  foi super profissional e cuidadosa em cada etapa. Hoje, meu
+                  sorriso está perfeito!"
+                </p>
+              </div>
+              <div class="comments">
+                <p class="avaliacao">Avaliação: ⭐⭐⭐⭐⭐</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="mapa" id="mapa">
+        <div class="box-form">
+          <form action="" class="form">
+            <h2>Entre em contato conosco</h2>
+            <label for=""><i class="ph ph-user"></i>Nome</label>
+            <input type="text" placeholder="Ex: Maria da Silva" />
+            <label for=""><i class="ph ph-envelope"></i>E-mail</label>
+            <input type="text" placeholder="mariasilva@email.com" />
+            <label for=""><i class="ph ph-phone"></i>Telefone</label>
+            <input type="text" placeholder="(99) 9888888" />
+            <label for=""><i class="ph ph-chat-text"></i>Mensagem</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Breve mensagem..."
+            >
+            </textarea>
+  
+            <button type="button">
+              Enviar Mensagem<i class="ph ph-paper-plane-right"></i>
+            </button>
+          </form>
+          <img src="./assets/contact.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="logo-footer">
+          <img src="./assets/odonto-logo.png" alt="Logo DentalClean" />
+        </div>
+
+        <div class="columns">
+          <div class="column">
+            <h3>Informations</h3>
+            <strong>Endereço :</strong>
+            <p>Rua Marcelo Maia, 145 - Nova Centro/PB</p>
+            <strong>Telefone :</strong>
+            <p>(89)0009-0125</p>
+            <strong>Whatsapp :</strong>
+            <p>(89)98888-8888</p>
+            <strong>E-mail :</strong>
+            <p>contato@dentalclean.com.br</p>
+          </div>
+
+          <div class="column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Term of Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Term of Conditions</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h3>Social Medias</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="ph ph-facebook-logo"></i>
+                  dentalcleanofficial
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ph ph-instagram-logo"></i>
+                  dentalcleanofficial
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ph ph-twitter-logo"></i>
+                  @dentalcleanofficial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2021 DentalClean. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
