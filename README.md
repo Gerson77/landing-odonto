@@ -2,7 +2,7 @@
 
 📌 **Visão Geral**
 
-Esta landing page foi criada para simular o site de uma clínica odontológica fictícia chamada "Sorriso Perfeito" . O design é moderno, limpo e focado em atrair potenciais clientes, destacando os serviços oferecidos pela clínica, depoimentos de pacientes e um formulário de contato.
+Esta landing page foi criada para simular o site de uma clínica odontológica fictícia chamada "Dental Clean". O design moderno, limpo e focado em atrair potenciais clientes, destacando os serviços oferecidos pela clínica, depoimentos de pacientes e um formulário de contato.
 
 ## Projeto Completo
 
