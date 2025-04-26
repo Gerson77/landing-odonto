@@ -21,4 +21,4 @@ Se tiver dúvidas ou sugestões, entre em contato:
 
 - LinkedIn : [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/gerson-santos-silva/)
 
-<a href="https://landingpage-waiter.vercel.app/" target="_blank">Click para conferir o projeto</a>
+<a href="https://landing-odonto.vercel.app/" target="_blank">Click para conferir o projeto</a>

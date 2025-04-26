@@ -196,6 +196,7 @@ a {
 }
 
 .shapes {
+  overflow: hidden;
   position: absolute;
   left: 0;
   top: 0;
@@ -956,6 +957,7 @@ footer {
   }
 
   .hero {
+    width: 100%;
     height: 100vh;
   }
 
