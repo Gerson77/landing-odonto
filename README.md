@@ -1,8 +1,19 @@
-# Clínica Odontológica - Landing Page
 
-📌 **Visão Geral**
+<h1 align="center" >
+  Clínica Odontológica - Landing Page
+</h1>
+<p align="center" >
+  <a href="http://nestjs.com/" target="blank"><img src="./assets/odonto-logo.png" width="200" alt="Logo" /></a>
+</p>
 
-Esta landing page foi criada para simular o site de uma clínica odontológica fictícia chamada "Dental Clean". O design moderno, limpo e focado em atrair potenciais clientes, destacando os serviços oferecidos pela clínica, depoimentos de pacientes e um formulário de contato.
+
+<div align="center" >
+  <img src="./assets/capa-odonto.png" alt="capa" />
+</div>
+
+## 📌 **Visão Geral**
+
+Esta landing page foi criada para simular o site de uma clínica odontológica fictícia chamada "DentiMax". O design moderno, limpo e focado em atrair potenciais clientes, destacando os serviços oferecidos pela clínica, depoimentos de pacientes e um formulário de contato.
 
 ## Projeto Completo
 
