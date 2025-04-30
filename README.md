@@ -6,7 +6,6 @@
   <a href="http://nestjs.com/" target="blank"><img src="./assets/odonto-logo.png" width="200" alt="Logo" /></a>
 </p>
 
-
 <div align="center" >
   <img src="./assets/capa-odonto.png" alt="capa" />
 </div>
